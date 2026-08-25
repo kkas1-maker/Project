@@ -62,7 +62,7 @@ class _TelaCadastroState extends State<TelaCadastro> {
                   child: RadioListTile<bool>( // opção saida
                     title: const Text('Saída', style: TextStyle(color: Colors.red)),
                     value: false, // valor associado a esse botao
-                    groupValue: _isEntrada, c
+                    groupValue: _isEntrada, 
                     onChanged: (val) => setState(() => _isEntrada = val!), // Atualiza quando clicado
                   ),
                 ),
