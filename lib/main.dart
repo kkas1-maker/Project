@@ -20,4 +20,4 @@ class MyApp extends StatelessWidget {
       home: const TelaPrincipal(), // Define que a primeira tela ao abrir o app é a TelaPrincipal
     );
   }
-}}
+}
